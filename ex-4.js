@@ -16,6 +16,6 @@ function multiply(a, b) {
   return a * b;
 }
 
-let calculator = {};
-
 // Start coding here
+
+let calculator = {};

@@ -4,5 +4,4 @@ const findMinNumber = (a, b) => {
 
 const minNumber = findMinNumber(10, 20);
 
-// minNumber should be 10
-console.log(minNumber);
+console.log(minNumber); // 10
