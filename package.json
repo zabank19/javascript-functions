@@ -1,0 +1,26 @@
+{
+  "name": "js-hh-functions",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "ex-1.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techupth/js-hh-functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techupth/js-hh-functions/issues"
+  },
+  "homepage": "https://github.com/techupth/js-hh-functions#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^29.3.1"
+  }
+}
