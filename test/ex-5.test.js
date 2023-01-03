@@ -1,13 +1,13 @@
 import fs from "fs/promises";
 
-describe("test JS Function Hack Hour", () => {
-  test("ex-5: Min Function", async () => {
+describe("exercise-5 : test JS Function Hack Hour", () => {
+  test("Function จะทำหน้าในการหาเลขน้อยที่สุดระหว่างตัวเลขสองตัว", async () => {
     const data = await fs.readFile("./ex-5.js");
-    const code = `${data} return minNumber`;
+    const code = `${data} \n return findMinNumber`;
 
     const func = new Function(code);
     const result = func();
 
-    expect(result).toBe(10);
+    expect(result(10, 20)).toBe(10);
   });
 });

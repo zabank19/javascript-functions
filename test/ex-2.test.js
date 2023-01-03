@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 
-describe("test JS Function Hack Hour", () => {
-  test("ex-2: Declaring Function Expression", async () => {
+describe("exercise-2 : test JS Function Hack Hour", () => {
+  test("Functions ต้องทำงานละได้ผลลัพธ์ตามที่โจทย์กำหนด", async () => {
     const data = await fs.readFile("./ex-2.js");
     const code = `${data} return {add, subtract, multiply, divide}`;
 
