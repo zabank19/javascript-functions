@@ -3,7 +3,7 @@ import fs from "fs/promises";
 describe("exercise-4 : test JS Function Hack Hour", () => {
   test("Functions ต้องทำงานและได้ผลลัพธ์ตามที่โจทย์กำหนด", async () => {
     const data = await fs.readFile("./ex-4.js");
-    const code = `${data} return {calculator, resultAdd, resultDivide}`;
+    const code = `${data} \n return {calculator, resultAdd, resultDivide}`;
     const func = new Function(code);
     const { calculator, resultAdd, resultDivide } = func();
     expect(calculator.add(10, 2)).toBe(12);
