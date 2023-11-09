@@ -1,5 +1,3 @@
-//Exercise #6 Debugging (Array)
-
 //Start coding here
 const fruits = ["apple", "banana", "orange"];
 
